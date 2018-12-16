@@ -1,0 +1,8 @@
+[
+
+  {"input": "file", "inFile":"input/Num.td", "output":"file","outFile":"output/Num.s"},
+  {"input": "file", "inFile":"input/Rec.td", "output":"file","outFile":"output/Rec.s"},
+  {"input": "file", "inFile":"input/Rec2.td", "output":"file","outFile":"output/Rec2.s"},
+  {"input": "file", "inFile":"input/Rec3.td", "output":"file","outFile":"output/Rec3.s"}
+
+]

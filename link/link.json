@@ -1,0 +1,10 @@
+[
+  {"input": "file", "inFile":"input/Num.td", "output":"file","outFile":"output/Num.s"},
+  {"input": "file", "inFile":"input/Add.td", "output":"file","outFile":"output/Add.s"},
+  {"input": "file", "inFile":"input/Var.td", "output":"file","outFile":"output/Var.s"},
+  {"input": "file", "inFile":"input/If.td", "output":"file","outFile":"output/If.s"},
+  {"input": "file", "inFile":"input/Let.td", "output":"file","outFile":"output/Let.s"},
+  {"input": "file", "inFile":"input/Alpha.td", "output":"file","outFile":"output/Alpha.s"},
+  {"input": "file", "inFile":"input/Rec.td", "output":"file","outFile":"output/Rec.s"}
+  
+]

@@ -644,8 +644,6 @@ def skeletonBlockToBodyBlock(skeletonBlock,argCol,stack):
   skelArg1 = skeletonBlock[1]
   skelArg2 = skeletonBlock[2]
   #stack = dict()
-  #print(skelArg1)
-  #print(skelArg2)
   skelArg1Update,stack = parameterMatch(skelArg1,termArgsMat,stack)
   skelArg2Update,stack = parameterMatch(skelArg2,termArgsMat,stack)
   skeletonBlock[1] = skelArg1Update
@@ -850,6 +848,8 @@ def learnEasy(inputFile):
   asmList = list()
   for line in f:
     chars = len(re.findall('[A-Za-z]',line))
+    if line[0] == '$':
+      break
     if line[0] == '+':
       asmList = list()
     elif line[0] == '-':

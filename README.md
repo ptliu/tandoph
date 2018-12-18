@@ -1,6 +1,12 @@
 **Tandoph** is a framework and tool to assemble compilers. It is most similar to META II, except it 
 seeks to use input / output examples in addition to specifications. Consider being given the
 example for a novel operator, *Banana*, without formal specifications:
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ![](https://raw.githubusercontent.com/ptliu/tandoph/master/examples/banana.png)
 <br>

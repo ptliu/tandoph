@@ -1,3 +1,20 @@
+Tandoph is a framework and tool to assemble compilers. It is most similar to META II, except it 
+seeks to use input / output examples in addition to specifications. Consider being given the
+example for a novel operator, **Banana**, without formal specifications:
+
+![](https://raw.githubusercontent.com/ptliu/tandoph/master/examples/banana.png)
+<br>
+<br>
+
+
+
+And being able to compile novel examples on the fly:
+
+![](https://raw.githubusercontent.com/ptliu/tandoph/master/examples/compileBananaFor.png)
+
+<br>
+<br>
+
 **Abstract**: We propose Tandoph, a framework and tool for automating
 the construction of compilers, from either I/O examples or constraints.
 Our work introduces many of the problems of automating compiler
@@ -51,7 +68,7 @@ Related Work
 META II
 -------
 
-@meta The META II project is the project whose goals and technique most
+The META II project is the project whose goals and technique most
 closely match our work. META II gives the user the ability to write
 syntax rules for converting arbitrary constructs in the input language
 to assembly, and uses as its conversion method direct string search and
@@ -71,7 +88,7 @@ currently lacks.
 Production Quality Compiler-compiler
 ------------------------------------
 
-@pqcc The Production Quality Compiler-Compiler(PQCC) is a project whose
+The Production Quality Compiler-Compiler(PQCC) is a project whose
 goals are similar, but wider than scope than ours. This project’s goal
 was to build a tool that could generate a compiler from an arbitrary
 unparsed input language to assembly for an arbitrary architecture, with
@@ -90,7 +107,7 @@ finished product was delivered.
 MYTH
 ----
 
-@osera MYTH is, unlike previous works, a tool that can synthesize
+MYTH is, unlike previous works, a tool that can synthesize
 programs that handle recursive data structures containing algebraic
 datatypes. It does so by using type annotations on synthesized functions
 in conjunction with input-output examples, over an ML-like input

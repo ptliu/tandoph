@@ -39,9 +39,9 @@ how to compile functions from examples.
 Introduction
 ============
 
-Compilers, in essence, are functions that take a string $s$ in a given
-input language, and return a string $p$ in the target language, such
-that the semantics of $s$ and $p$ are identical in their respective
+Compilers, in essence, are functions that take a string s in a given
+input language, and return a string p in the target language, such
+that the semantics of s and p are identical in their respective
 languages. The field of compiler development is almost as old as the
 idea of high-level languages, but for the most part, each compiler
 targets a specific input language and a specific output language,
@@ -123,7 +123,7 @@ well-suited for recursively processing data structures.
 
 Because ASTs are a recursive data type, one could imagine applying MYTH
 to the domain of compiler synthesis, by feeding it a function signature
-of a compile function $f :: AST -> [x86asm]$ as well as our input-output
+of a compile function f :: AST -> [x86asm] as well as our input-output
 examples, and attempt to have it synthesize a compiler in this way. The
 authors did not choose to pursue this route, but future work could
 include using MYTH to synthesize compilers for comparison purposes.
